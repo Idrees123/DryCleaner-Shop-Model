@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Dt" prefHeight="577.0" prefWidth="627.0" style="-fx-background-color: #081F47" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="drycleaner.FXMLDocumentController">
+    <children>
+        <TextField fx:id="server1_serviceTime" layoutX="153.0" layoutY="107.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="server2_serviceTime" layoutX="460.0" layoutY="107.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="server3_serviceTime" layoutX="154.0" layoutY="143.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="server4_serviceTimeDamage" layoutX="461.0" layoutY="143.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="server4_serviceTimeUndamage" layoutX="154.0" layoutY="180.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="server5_serviceTime" layoutX="461.0" layoutY="180.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="damageShirtProb" layoutX="116.0" layoutY="292.0" prefHeight="25.0" prefWidth="174.0" />
+        <TextField fx:id="damagePentProb" layoutX="423.0" layoutY="288.0" prefHeight="25.0" prefWidth="174.0" />
+        <TextField fx:id="system_interarrival" layoutX="188.0" layoutY="396.0" prefHeight="25.0" prefWidth="142.0" />
+        <TextField fx:id="simulation_time" layoutX="166.0" layoutY="514.0" prefHeight="25.0" prefWidth="142.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="finalresult" layoutX="422.0" layoutY="537.0" minHeight="16" minWidth="69">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="26.0" layoutY="514.0" prefHeight="25.0" prefWidth="143.0" text="Simulation Time" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="329.0" layoutY="143.0" prefHeight="25.0" prefWidth="100.0" text="Server 4 (D)" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="327.0" layoutY="288.0" prefHeight="25.0" prefWidth="174.0" text="Damage Pent" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="143.0" prefHeight="25.0" prefWidth="56.0" text="Server 3" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="106.0" prefHeight="27.0" prefWidth="56.0" text="Server 1" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="329.0" layoutY="106.0" prefHeight="27.0" prefWidth="100.0" text="Server 2" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Button fx:id="simulateBtn" layoutX="442.0" layoutY="513.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="118.0" style="-fx-background-image: url(/dryCleaner/1.png;" text="Simulate ">
+            <effect>
+                <Blend />
+            </effect>
+        </Button>
+        <Label layoutX="26.0" layoutY="399.0" prefHeight="25.0" prefWidth="118.0" text="Interarrival Time" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="292.0" prefHeight="17.0" prefWidth="143.0" text="Damage Shirt" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="204.0" layoutY="59.0" text="Mean Service Time(mins)" textFill="#efeef2">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="256.0" layoutY="231.0" text="PROBABILITY" textFill="#efeef2">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="280.0" layoutY="350.0" text="SYSTEM" textFill="#efeef2">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="254.0" layoutY="456.0" text="SIMULATION" textFill="#efeef2">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="23.0" layoutY="180.0" prefHeight="25.0" prefWidth="118.0" text="Server 4 (UD)" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="329.0" layoutY="181.0" prefHeight="25.0" prefWidth="100.0" text="Server 5" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="316.0" layoutY="514.0" prefHeight="25.0" prefWidth="143.0" text="mins" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+    <effect>
+        <Blend />
+    </effect>
+</AnchorPane>

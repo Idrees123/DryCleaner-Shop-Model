@@ -1,0 +1,14 @@
+Total Suits: 72
+No of Damage Suits: 3
+No of Damage Jackets: 0
+No of Damage Pants: 3
+Average Suit Time: 0.6287500000000006
+Maximum Suit Time: 1.6699999999999946
+Average Damage Suit Time: 0.9866666666666646
+Average Undamage Suit Time:0.6131884057971022
+Server 1 Average Queue Length: 0.01119178200222602
+Server 2 Average Queue Length: 0.012834034775162368
+Server 3 Average Queue Length: 0.05256411386922286
+Server 4 Average Queue Length: 0.006377819016481007
+Server 5 Average Queue Length: 0.0
+Suggestion: Decrease the time of the server 0

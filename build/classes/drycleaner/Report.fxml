@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="477.0" style="-fx-background-color: #081F47;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="drycleaner.ReportController">
+   <children>
+      <Label fx:id="label_avgSuitTime" layoutX="92.0" layoutY="124.0" prefHeight="17.0" prefWidth="300.0" text="Average Suit Time:" textFill="WHITE" />
+      <Label fx:id="label_avgDamageSuitTime" layoutX="92.0" layoutY="176.0" prefHeight="17.0" prefWidth="300.0" text="Average Damage Suit Time:" textFill="WHITE" />
+      <Label fx:id="label_avgUndamageSuitTime" layoutX="92.0" layoutY="201.0" prefHeight="17.0" prefWidth="300.0" text="Average Undamage Suit Time:" textFill="WHITE" />
+      <Label fx:id="label_totalSuits" layoutX="94.0" layoutY="27.0" prefHeight="17.0" prefWidth="300.0" text="Total Suits:" textFill="WHITE" />
+      <Label fx:id="label_noOfDamageSuits" layoutX="95.0" layoutY="51.0" prefHeight="17.0" prefWidth="300.0" text="No of Damage Suits:" textFill="WHITE" />
+      <Label fx:id="label_maxSuitTime" layoutX="92.0" layoutY="151.0" prefHeight="17.0" prefWidth="300.0" text="Maximum Suit Time:" textFill="WHITE" />
+      <Label fx:id="label_server1_avgQueueLength" layoutX="92.0" layoutY="227.0" prefHeight="17.0" prefWidth="300.0" text="Server 1 Average Queue Length: " textFill="WHITE" />
+      <Label fx:id="label_server2_avgQueueLength" layoutX="92.0" layoutY="256.0" prefHeight="17.0" prefWidth="300.0" text="Server 2 Average Queue Length: " textFill="WHITE" />
+      <Label fx:id="label_server3_avgQueueLength" layoutX="92.0" layoutY="282.0" prefHeight="17.0" prefWidth="300.0" text="Server 3 Average Queue Length: " textFill="WHITE" />
+      <Label fx:id="label_server4_avgQueueLength" layoutX="92.0" layoutY="309.0" prefHeight="17.0" prefWidth="300.0" text="Server 4 Average Queue Length: " textFill="WHITE" />
+      <Label fx:id="label_server5_avgQueueLength" layoutX="92.0" layoutY="332.0" prefHeight="17.0" prefWidth="300.0" text="Server 5 Average Queue Length: " textFill="WHITE" />
+      <Label fx:id="label_suggestion" layoutX="92.0" layoutY="357.0" prefHeight="17.0" prefWidth="300.0" text="Suggestion: " textFill="WHITE" />
+      <Label fx:id="label_noOfDamageJackets" layoutX="92.0" layoutY="74.0" prefHeight="17.0" prefWidth="300.0" text="No of Damage Jackets:" textFill="WHITE" />
+      <Label fx:id="label_noOfDamagePants" layoutX="92.0" layoutY="99.0" prefHeight="17.0" prefWidth="300.0" text="No of Damage Pants:" textFill="WHITE" />
+      <Button fx:id="visualizeBtn" layoutX="347.0" layoutY="402.0" mnemonicParsing="false" onAction="#showgraph" prefHeight="25.0" prefWidth="90.0" text="Visualize" />
+   </children>
+</AnchorPane>
